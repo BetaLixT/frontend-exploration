@@ -20,7 +20,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
         </a>
       </div>
 
-      <h1 class="container flex justify-center pt-16 text-5xl font-semibold">Vite + TypeScript + Tailwindcss</h1>
+      <h1 class="container flex justify-center pt-16 text-5xl font-semibold text-center">Vite + TypeScript + Tailwindcss</h1>
       
       <div class="container flex justify-center pt-20">
         <button id="counter" type="button" class="font-semibold rounded-lg px-10 py-3 border border-zinc-900 hover:border-solid hover:border-blue-900"></button>
