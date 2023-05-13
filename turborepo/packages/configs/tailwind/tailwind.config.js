@@ -6,6 +6,10 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    colors: {
+      bermuda: "#78dcca",
+      background: "#242424",
+    },
     extend: {},
   },
   plugins: [],
