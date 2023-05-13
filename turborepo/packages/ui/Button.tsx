@@ -8,6 +8,6 @@ type Props = {
 
 export const Button: FC<Props> = ({ onClick }) => {
   return <button
-    className="rounded-full bg-brandColor text-brandForegroundColor px-3 py-1 hover:bg-[#4a9c6b]"
+    className="rounded-full bg-danger-pop-dark text-brandForegroundColor px-3 py-1 hover:bg-brand-pop-dark"
     onClick={onClick}>Boop</button>;
 };
