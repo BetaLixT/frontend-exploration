@@ -8,7 +8,38 @@ module.exports = {
   theme: {
     colors: {
       bermuda: "#78dcca",
-      background: "#242424",
+
+      //=======================================================================
+      // - dark
+      //=======================================================================
+      "bg-dark": "#242424",
+      "fg-dark": "#e2e8f0",
+
+      // -- info
+      "info-fade-dark": "#365314",
+      "info-fade-fg-dark": "#e2e8f0",
+      "info-dark": "#3f6212",
+      "info-fg-dark": "#e2e8f0",
+      "info-pop-dark": "#4d7c0f",
+      "info-pop-fg-dark": "#365314",
+
+      // -- warn
+      "warning-fade-dark": "#a16207",
+      "warning-fade-fg-dark": "#e2e8f0",
+      "warning-dark": "#a16207",
+      "warning-fg-dark": "#e2e8f0",
+      "warning-pop-dark": "#a16207",
+      "warning-pop-fg-dark": "#e2e8f0",
+
+      // -- danger
+      "danger-dark": "#991b1b",
+      "danger-fg-dark": "#e2e8f0",
+      // -- brand
+      brandColorDark: "#164e63",
+      brandForegroundColorDark: "#e2e8f0",
+
+      // light
+
     },
     extend: {},
   },
