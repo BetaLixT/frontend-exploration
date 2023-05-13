@@ -24,19 +24,28 @@ module.exports = {
       "info-pop-fg-dark": "#365314",
 
       // -- warn
-      "warning-fade-dark": "#a16207",
+      "warning-fade-dark": "##713f12",
       "warning-fade-fg-dark": "#e2e8f0",
-      "warning-dark": "#a16207",
+      "warning-dark": "##854d0e",
       "warning-fg-dark": "#e2e8f0",
       "warning-pop-dark": "#a16207",
       "warning-pop-fg-dark": "#e2e8f0",
 
       // -- danger
+      "danger-fade-dark": "##7f1d1d",
+      "danger-fade-fg-dark": "#e2e8f0",
       "danger-dark": "#991b1b",
       "danger-fg-dark": "#e2e8f0",
+      "danger-pop-dark": "##b91c1c",
+      "danger-pop-fg-dark": "#e2e8f0",
+
       // -- brand
-      brandColorDark: "#164e63",
-      brandForegroundColorDark: "#e2e8f0",
+      "brand-fade-dark": "##083344",
+      "brand-fade-fg-dark": "#e2e8f0",
+      "brand-dark": "#164e63",
+      "brand-fg-dark": "#e2e8f0",
+      "brand-pop-dark": "##155e75",
+      "brand-pop-fg-dark": "#e2e8f0",
 
       // light
 
