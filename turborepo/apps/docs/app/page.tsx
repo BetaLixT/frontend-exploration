@@ -1,10 +1,10 @@
-import { Main, Button, Header } from "ui";
+import { Main, Button, ButtonType, Header } from "ui";
 
 export default function Page() {
   return (
     <Main>
       <Header text="Docs" />
-      <Button />
+      <Button buttonType={ButtonType.Info} />
     </Main>
   );
 }

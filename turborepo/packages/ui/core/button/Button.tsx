@@ -1,18 +1,12 @@
 "use client";
 
 import { FC, MouseEventHandler } from "react";
+import { ButtonType } from "./Types";
 
 type Props = {
   onClick: MouseEventHandler;
   buttonType: ButtonType;
 };
-
-export enum ButtonType {
-  Info = 0,
-  Warn,
-  Danger,
-  Brand,
-}
 
 export const Button: FC<Props> = ({ onClick, buttonType }) => {
   let colorClasses = "";
