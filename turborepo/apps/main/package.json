@@ -2,7 +2,6 @@
   "name": "main",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite --host",
     "build": "tsc && vite build",
@@ -12,12 +11,12 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "ui": "*"
+    "ui": "*",
+    "configs": "*"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
-    "tsconfig": "*",
     "@vitejs/plugin-react-swc": "^3.0.0",
     "eslint-config-custom": "*",
     "typescript": "^5.0.2",
