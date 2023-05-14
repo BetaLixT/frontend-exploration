@@ -6,7 +6,7 @@ type Props = {
 
 export const Main: FC<Props> = ({ children }) => {
   return (
-    <main className="flex min-h-screen flex-col items-center bg-backgroundColorDark">
+    <main className="flex min-h-screen flex-col items-center bg-dark-bg">
       {children}
     </main>
   );
