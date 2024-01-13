@@ -11,6 +11,7 @@ import { FormControl, ReactiveFormsModule } from '@angular/forms';
 })
 export class RowComponent {
   @Output() rowValue = new EventEmitter<number>();
+  @Output() deleteRow = new EventEmitter<number>();
 
   inputNumber = new FormControl<undefined | number>(undefined);
   inputOper = new FormControl<string>('add');
@@ -22,6 +23,10 @@ export class RowComponent {
     this.inputOper.valueChanges.subscribe(() => {
       this.emitValue();
     });
+  }
+
+  delete() {
+    this.deleteRow.next(0);
   }
 
   emitValue() {

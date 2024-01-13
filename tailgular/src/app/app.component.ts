@@ -28,6 +28,13 @@ export class AppComponent {
     this.rows.push(row);
   }
 
+  removeRow(row: RowData) {
+    this.rows.forEach((item, index) => {
+      if (item === row) this.rows.splice(index, 1);
+    });
+    this.calculateSum();
+  }
+
   calculateSum() {
     let sum = 0;
     for (let row of this.rows) {

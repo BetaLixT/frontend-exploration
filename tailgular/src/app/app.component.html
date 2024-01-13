@@ -12,6 +12,7 @@
     <row-calc-row
       *ngFor="let row of rows"
       (rowValue)="row.updateValue($event)"
+      (deleteRow)="removeRow(row)"
     />
   </div>
   <app-messages class></app-messages>
